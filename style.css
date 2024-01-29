@@ -1,3 +1,86 @@
-#heading{
-    color:rgb(43, 0, 255);
+.app
+{
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+.header
+{
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    background-color: cadetblue;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+}
+
+.logo
+{
+    height: 60px;
+    position:relative;
+    top:4px;
+    left:10px;
+}
+
+ .nav-items > ul{
+    display: flex;
+    justify-content: flex-start;
+    gap:15px; 
+    margin-right: 10px;
+    list-style-type: none;
+    font-size: larger;
+}
+
+.search
+{
+    margin: 80px 8px 10px;
+
+}
+
+.res-card
+{
+  width: 150px;
+  margin-left: 5px;
+  overflow-x: scroll;
+}
+
+.res-card:hover{
+    border: 2px solid gray;
+    transition: all 0.5s linear;
+}
+
+.body
+{
+ margin-top: 60px;
+}
+
+.res-logo
+{
+    height:160px;
+    width: 150px;
+    object-fit: cover;
+}
+
+
+
+.res-container
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap:5px;
+}
+
+h4
+{
+    margin: 4px 8px;
+}
+h3{
+    margin-left:5px;
 }
